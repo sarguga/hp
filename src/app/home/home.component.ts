@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.sass']
 })
 export class HomeComponent implements OnInit {
-  images = [1, 2, 3].map(() => `https://picsum.photos/1359/512?random&t=${Math.random()}`);
+  images = [1, 2, 3].map(() => `https://picsum.photos/1349/512?random&t=${Math.random()}`);
  constructor() { }
  ngOnInit() {
  }
